@@ -1,0 +1,34 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+    <display-name>Threads Demo</display-name>
+    <description>
+      Examples for Lecture on Threads and Synchronization
+    </description>
+
+    <servlet>
+        <servlet-name>  broken        </servlet-name>
+        <servlet-class>
+            edu.cmu.cs.webapp.threads.ToDoListServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>  correct       </servlet-name>
+        <servlet-class>
+            edu.cmu.cs.webapp.threads.ToDoListServletSynchronized
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>  broken        </servlet-name>
+        <url-pattern>   /ToDoList     </url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>  correct       </servlet-name>
+        <url-pattern>   /SyncToDoList </url-pattern>
+    </servlet-mapping>
+</web-app>

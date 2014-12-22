@@ -1,0 +1,44 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+    <display-name>JSP Demo</display-name>
+    <description>
+        JSP Demo Examples for the Web App Class
+    </description>
+
+    <context-param>
+        <param-name>  jdbcDriverName        </param-name>
+        <param-value> com.mysql.jdbc.Driver </param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>  jdbcURL               </param-name>
+        <param-value> jdbc:mysql:///test </param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>id-search</servlet-name>
+        <servlet-class>IdSearch</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>id-search</servlet-name>
+        <url-pattern>/idsearch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>name-search</servlet-name>
+        <servlet-class>NameSearch</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>name-search</servlet-name>
+        <url-pattern>/namesearch</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

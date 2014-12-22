@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+
+<style type="text/css">
+<!--
+.style1 {font-size: 24px; font-weight: bold}
+-->
+</style>
+</head>
+
+<body>
+  <table>
+  	<tr>
+		<td colspan="2" align="center">
+			<p class="style1"><em>
+            <!-- TemplateBeginEditable name="TitleAgainRegion" --><em> Title Again</em><!-- TemplateEndEditable --></em></p>
+		</td>
+	</tr>
+  	<tr>
+		<td colspan="2">&nbsp;</td>
+	</tr>
+    <tr>
+		<td width="200" valign="top">
+			<ul>
+			<li class="style1"><a href="../content/index.html">Head</a></li>
+			<li class="style1"><a href="../content/shoulders.html">Shoulders</a></li>
+			<li class="style1"><a href="../content/knees.html">Knees</a></li>
+			<li class="style1"><a href="../content/toes.html">Toes</a></li>
+			</ul>
+			<img src="../content/left-confetti.jpg" />
+		</td>
+		<td>
+          <!-- TemplateBeginEditable name="ImageRegion" --> Your Image Goes Here <!-- TemplateEndEditable --></td>
+    </tr>
+  </table>
+
+</body>
+</html>
